@@ -6,24 +6,22 @@ body{
 
 h1{
     font-family: Yantramanav, sans-serif;
-    font-size: 400%;
+    font-size: 500%;
     color: bisque;
     text-align: center;
     text-space: 5px;
 }
 
 h2{
+    color: azure;
     font-family: Montserrat, sans-serif;
     text-align: center;
-    font-size: 200%;
-    color: aliceblue;
-
+    font-size: 300%;
 }
 
 div.velkommen{
-    border: 3px;
-    border-radius: 13px;
-    max-width: 300px;
-    padding: auto;
-
+    color: azure;
+    border: solid;
+    margin: 100px;
 }
+
