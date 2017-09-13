@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Yantramanav');
+
+body{
+    background-color: teal;
+}
+
+h1{
+    font-family: Yantramanav, sans-serif;
+    font-size: 400%;
+    color: bisque;
+    text-align: center;
+    text-space: 5px;
+}
+
+h2{
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    font-size: 200%;
+    color: aliceblue;
+
+}
+
+div.velkommen{
+    border: 3px;
+    border-radius: 13px;
+    max-width: 300px;
+    padding: auto;
+
+}
