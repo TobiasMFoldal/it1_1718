@@ -10,18 +10,84 @@ h1{
     color: bisque;
     text-align: center;
     text-space: 5px;
+    border: solid;
+    margin: 70px;
 }
 
-h2{
+h1:hover{
+    color: papayawhip;
+}
+
+.velkommen{
     color: azure;
     font-family: Montserrat, sans-serif;
     text-align: center;
     font-size: 300%;
-}
-
-div.velkommen{
-    color: azure;
     border: solid;
     margin: 100px;
 }
 
+.velkommen:hover{
+    color: bisque;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-content: center;
+}
+
+ul li{
+    display: inline;
+}
+
+ul a{
+    padding: 10px 30px;
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul a:hover{
+    color: #333333;
+    background-color: bisque;
+    text-decoration: underline;
+}
+
+.meny{
+    flex-direction: column;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: bisque;
+}
+
+input[type="text"]{
+    display: block;
+    width: 220px;
+    padding: 5px;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: bisque;
+}
+
+input[type="submit"]{
+    display: block;
+    padding: 8px 15px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    background-color: white;
+}
