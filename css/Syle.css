@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Yantramanav');
 
 body{
-    background-color: teal;
+    background-color: green;
+    background: -o-linear-gradient(bottom right, green, yellow);
+    background: -moz-linear-gradient(bottom right, green, yellow);
+    background: linear-gradient(to bottom right, green, yellow);
+    background-size: 150%;
 }
 
 h1{
     font-family: Yantramanav, sans-serif;
     font-size: 500%;
-    color: bisque;
+    color: white;
     text-align: center;
     text-space: 5px;
     border: solid;
@@ -15,7 +19,7 @@ h1{
 }
 
 h1:hover{
-    color: papayawhip;
+    color: black;
 }
 
 .velkommen{
@@ -28,7 +32,7 @@ h1:hover{
 }
 
 .velkommen:hover{
-    color: bisque;
+    color: black;
 }
 
 ul{
@@ -44,15 +48,14 @@ ul li{
 
 ul a{
     padding: 10px 30px;
-    color: #333333;
+    color: black;
     font-weight: bold;
     text-decoration: none;
 }
 
 ul a:hover{
-    color: #333333;
-    background-color: bisque;
-    text-decoration: underline;
+    color: #000000;
+    background-color: white;
 }
 
 .meny{
@@ -68,8 +71,8 @@ a{
 }
 
 a:hover{
-    text-decoration: underline;
-    color: bisque;
+    text-decoration: none;
+    color: black;
 }
 
 input[type="text"]{
@@ -80,7 +83,7 @@ input[type="text"]{
     border: none;
     border-radius: 4px;
     margin-bottom: 10px;
-    background-color: bisque;
+    background-color:whitesmoke;
 }
 
 input[type="submit"]{
