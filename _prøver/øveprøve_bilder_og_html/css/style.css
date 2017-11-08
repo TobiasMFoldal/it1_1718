@@ -1,0 +1,49 @@
+body{
+    background-color: #7accc8;
+    font-family: sans-serif;
+}
+
+.pakker{
+    width: 900px;
+    margin: auto;
+    padding: 50px;
+    background-color: whitesmoke;
+}
+
+h1{
+    color: #4aaaa5;
+    text-align: center;
+    font-size: 75px;
+    margin-top: 0px;
+}
+
+h2{
+    color: #a3d39c;
+    text-align: center;
+    font-size: 18px;
+}
+
+h3{
+    color: #db3340;
+}
+
+p{
+    color: #35404f;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+th{
+    background-color: #7accc8;
+    border: 1px;
+    padding: 5px;
+}
+
+td{
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 10px;
+}

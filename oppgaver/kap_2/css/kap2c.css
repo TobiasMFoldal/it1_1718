@@ -1,0 +1,21 @@
+body{
+    background-color: #ffc225;
+    font-family: sans-serif;
+}
+
+.oppgaver{
+    width: 1000px;
+    padding: 50px;
+    background-color: #fff9fc;
+    min-height: 300px;
+    margin: 80px auto;
+    position: relative;
+}
+
+h3{
+    font-size: 200%;
+}
+
+p{
+    font-size: 200%;
+}

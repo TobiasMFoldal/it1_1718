@@ -1,79 +1,103 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Yantramanav');
-
-body{
-    background-color: green;
-    background: -o-linear-gradient(bottom right, green, yellow);
-    background: -moz-linear-gradient(bottom right, green, yellow);
-    background: linear-gradient(to bottom right, green, yellow);
-    background-size: 150%;
+body {
+    background-color: #dff5ff;
 }
 
 h1{
-    font-family: Yantramanav, sans-serif;
-    font-size: 500%;
-    color: white;
     text-align: center;
-    text-space: 5px;
-    border: solid;
-    margin: 70px;
 }
 
-h1:hover{
-    color: black;
+p{
+    font-family: "serif";
 }
 
-.velkommen{
-    color: azure;
-    font-family: Montserrat, sans-serif;
+h2{
+    margin-top: 50px;
     text-align: center;
-    font-size: 300%;
-    border: solid;
-    margin: 100px;
 }
 
-.velkommen:hover{
-    color: black;
+h3{
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
-ul{
+table{
+    alignment: center;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th{
+    background-color: #c8d8ff;
+    border: 1px;
+    padding: 5px;
+}
+
+td{
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+.meny ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    align-content: center;
+    text-align: center;
 }
-
-ul li{
+.meny ul li{
     display: inline;
 }
 
-ul a{
+.meny ul a{
     padding: 10px 30px;
     color: black;
     font-weight: bold;
     text-decoration: none;
+    background-color: transparent;
 }
 
-ul a:hover{
-    color: #000000;
+.meny ul a:hover{
     background-color: white;
 }
 
-.meny{
-    flex-direction: column;
+.innpaking{
+    margin: auto;
+    width: 800px;
+    background-color: #dff5ff;
     margin: auto;
     display: flex;
-    align-items: center;
+    flex-direction: column;
 }
 
-a{
-    color: white;
-    text-decoration: none;
+.topptekst{
+    height: 120px;
+    background-color: #eaf8ff;
+    padding: 5px;
+    margin: 5px;
 }
 
-a:hover{
-    text-decoration: none;
-    color: black;
+.meny{
+    padding: 5px;
+    margin: 5px
 }
+
+.innhold{
+    background-color: #eaf8ff;
+    padding: 5px;
+    margin: 5px;
+}
+
+.meny h2{
+    text-align: center;
+}
+ ul{
+     list-style-type: circle;
+     text-decoration: none;
+ }
+
+ img{
+     margin-top: 10px;
+ }
 
 input[type="text"]{
     display: block;
@@ -95,11 +119,23 @@ input[type="submit"]{
     background-color: white;
 }
 
+.skjema{
+    padding-top: 10px;
+}
+
+.ifra p{
+    font-family: "Adobe Hebrew";
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+
+
 .dropbtn{
     background-color: transparent;
     color: black;
     padding: 16px;
-    font-size: 36px;
+    font-size: 16px;
     border: none;
     cursor: pointer;
 }
@@ -114,7 +150,7 @@ input[type="submit"]{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 180px;
+    min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -136,4 +172,9 @@ input[type="submit"]{
 
 .dropdown:hover .dropbtn{
     background-color: #eaf8ff;
+}
+
+.lorem p{
+    font-family: Montserrat;
+    font-size: 15px;
 }

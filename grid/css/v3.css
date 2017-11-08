@@ -1,0 +1,133 @@
+body{
+    background-color: white;
+}
+
+p{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+p::first-letter{
+    font-size: 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-areas:
+        "header"
+        "nav"
+        "main"
+        "aside1"
+        "aside2"
+        "footer";
+    grid-gap: 1px;
+}
+
+.header{
+    grid-area: header;
+    background-color: #e8e9eb;
+}
+
+.nav{
+    grid-area: nav;
+    background-color: #313638;
+}
+
+.nav p{
+    color: white;
+}
+.main{
+    grid-area: main;
+    background-color: #ef6461;
+}
+
+.aside1{
+    grid-area: aside1;
+    background-color: #e4b363;
+}
+
+.aside2{
+    grid-area: aside2;
+    background-color: #e4b363;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: #daeadf;
+}
+
+.nav ul {
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #313638;
+}
+
+.nav li{
+    margin: 0;
+    flex: 1 1;
+}
+
+.nav a{
+    color: #EBF2FA;
+    width: 100%;
+    display: block;
+    padding: 1.15em 3%;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.nav li:hover{
+    background-color: #202425;
+}
+
+@media (min-width: 500px) {
+    .grid{
+        display: grid;
+        grid-auto-columns: 1fr 1fr;
+        grid-template-areas:
+                "header header"
+                "nav nav"
+                "main main"
+                "aside1 aside2"
+                "footer footer";
+    }
+
+
+}
+
+@media (min-width: 700px) {
+    .grid{
+        display: grid;
+        grid-auto-columns: 100px 2fr 1fr;
+        grid-template-areas:
+                "header header header"
+                "nav main aside1"
+                "nav main aside2"
+                "footer footer footer";
+    }
+
+    .nav ul {
+        flex-direction: column;
+    }
+}
+
+.bilder img{
+    width: 5px;
+    height: auto;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+}
+
+.bilder img:hover {
+    width: 500px;
+    height: auto;
+}

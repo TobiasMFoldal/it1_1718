@@ -1,0 +1,103 @@
+body{
+    background-color: #28abe3;
+    font-family: sans-serif;
+}
+
+.oppgaver{
+    width: 1000px;
+    padding: 50px;
+    background-color: #f7eac8;
+    min-height: 300px;
+    margin: 80px auto;
+    position: relative;
+}
+
+h1{
+    color: #db3340;
+    font-size: 100px;
+    text-align: center;
+}
+
+h2{
+    color: #37422e;
+    margin-top: -80px;
+    text-align: center;
+}
+
+h3{
+    background-color: #b89115;
+    font-size: 100px;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: -60px;
+    top: -60px;
+    text-align: center;
+    border-radius: 60px;
+    margin: 0;
+    color: white;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+.p1 p{
+    color: #b89115;
+}
+
+input[type="text"]{
+    display: block;
+    width: 220px;
+    padding: 5px;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color:whitesmoke;
+}
+
+input[type="date"] {
+    display: block;
+    width: 220px;
+    padding: 5px;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+}
+
+input[type="number"] {
+    display: block;
+    width: 220px;
+    padding: 5px;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+}
+
+input[type="submit"]{
+    display: block;
+    padding: 8px 15px;
+    font-weight: bold;
+    color: black;
+    border: none;
+    background-color: white;
+}
+
+ul{
+    color: black;
+}
+
+ol{
+    color: #28abe3;
+}
+
+video{
+    margin-left: 250px;
+    margin-right: 250px;
+}
